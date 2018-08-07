@@ -36,4 +36,5 @@ Ionic apps are created and developed primarily through the Ionic command line ut
 
 1.  [Login](https://firebase.google.com/) into firebase console.
 2.  Got to [Firebase Console](https://console.firebase.google.com/u/0/).
-3.  Create
+3.  Create a firebase new project
+    ![Image of Yaktocat](Card-sharing-app-in-ionic-using-NFC-and-firebase/Images/Firebase create new project.png)
