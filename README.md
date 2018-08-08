@@ -37,4 +37,41 @@ Ionic apps are created and developed primarily through the Ionic command line ut
 1.  [Login](https://firebase.google.com/) into firebase console.
 2.  Got to [Firebase Console](https://console.firebase.google.com/u/0/).
 3.  Create a firebase new project
-    ![Image of Yaktocat](Card-sharing-app-in-ionic-using-NFC-and-firebase/Images/Firebase create new project.png)
+
+    ![Image of Yaktocat](https://github.com/mayorainfotech/Card-sharing-app-in-ionic-using-NFC-and-firebase/blob/master/Images/firebase-create-new-project.png)
+
+4.  Add Firebase confirg
+
+    > Add Firebase to your web app
+
+    > Replace firebase config ( src/comman/constants.ts)
+
+    ```
+    public static FIREBASE_CONFIG = {
+        apiKey: "YOUR_APIKEY",
+        authDomain: "YOUR_DOMAIN",
+        databaseURL: "",
+        projectId: "",
+        storageBucket: "",
+        messagingSenderId: ""
+    };
+    ```
+
+5.  Enable Anonymous Sign-in-method
+
+    > Authentication -> Sign-in-method -> Anonymous
+
+    ![Image of Yaktocat](https://github.com/mayorainfotech/Card-sharing-app-in-ionic-using-NFC-and-firebase/blob/master/Images/sign-in-method.png)
+
+6.  Add Rule in firebase
+
+    > Database -> Rules
+
+    ```
+    {
+        "rules": {
+        ".read": true,
+        ".write": true
+        }
+    }
+    ```
