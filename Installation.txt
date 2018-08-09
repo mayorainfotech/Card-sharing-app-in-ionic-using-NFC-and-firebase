@@ -71,16 +71,3 @@ Ionic apps are created and developed primarily through the Ionic command line ut
         }
     }
     ```
-
-# Deep linking Setup
-
-1. Install deep linking ionic plugin
-
-   ```
-   $ cordova plugin add ionic-plugin-deeplinks --variable URL_SCHEME=YOUR_SCHEME --variable DEEPLINK_SCHEME=https --variable DEEPLINK_HOST=YOUR_HOST
-   ```
-
-   > For more detail refer this [blog](https://blog.ionicframework.com/deeplinking-in-ionic-apps/)
-
-2. Universal Links
-   > Please follow every setup of this [blog](https://developer.apple.com/library/archive/documentation/General/Conceptual/AppSearch/UniversalLinks.html)
